@@ -6,36 +6,42 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import eve3 from '../assets/images/eve3.jpg'
+import eve2 from '../assets/images/eve2.jpg'
+import eve4 from '../assets/images/IMG_7481 (1).jpg'
+import eve1 from '../assets/images/IMG_7370.jpg'
+import eve5 from '../assets/images/IMG_7454.jpg'
+
 
 const EventCarousel = () => {
   const eventImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop",
+      src: eve3,
       alt: "IEDC Innovation Workshop",
-      title: "Innovation Workshop 2024",
+      title: "IEDC Inuaguration",
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
+      src: eve2,
       alt: "IEDC Startup Pitch Event",
-      title: "Startup Pitch Competition",
+      title: "IEDC Inuaguration",
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?w=800&h=600&fit=crop",
+      src: eve4,
       alt: "IEDC Tech Conference",
-      title: "Annual Tech Conference",
+      title: "Talk Session",
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop",
+      src: eve1,
       alt: "IEDC Hackathon",
       title: "48-Hour Hackathon",
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
+      src: eve5,
       alt: "IEDC Networking Event",
       title: "Entrepreneur Networking",
     },

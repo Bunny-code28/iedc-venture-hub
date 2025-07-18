@@ -74,6 +74,12 @@ const Header = () => {
             >
               Contact
             </a>
+            <a
+              href="#team"
+              className="text-gray-700 hover:text-red-600 transition-colors"
+            >
+              Team
+            </a>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
@@ -99,22 +105,7 @@ const Header = () => {
               </>
             ) : (
               <>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={handleAuthAction}
-                  className="flex items-center gap-2"
-                >
-                  <LogIn size={16} />
-                  Login
-                </Button>
-                <Button
-                  size="sm"
-                  className="bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700"
-                  onClick={handleStartJourney}
-                >
-                  Start Your Journey
-                </Button>
+               
               </>
             )}
           </div>
@@ -200,13 +191,7 @@ const Header = () => {
                       <LogIn size={16} />
                       Login
                     </Button>
-                    <Button
-                      size="sm"
-                      className="bg-gradient-to-r from-red-600 to-orange-600"
-                      onClick={handleStartJourney}
-                    >
-                      Start Your Journey
-                    </Button>
+  
                   </>
                 )}
               </div>

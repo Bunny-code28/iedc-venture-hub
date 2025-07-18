@@ -29,7 +29,7 @@ const Events = () => {
     },
     {
       id: 3,
-      title: "Entrepreneur Networking Night",
+      title: "Entrepreneur Networking Fest",
       date: "Dec 25, 2024",
       time: "6:00 PM",
       location: "Innovation Hub",

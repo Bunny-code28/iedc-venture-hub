@@ -49,7 +49,7 @@ const Hero = () => {
                 <div className="w-16 h-16 bg-gradient-to-br from-red-100 to-red-200 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Rocket className="w-8 h-8 text-red-600" />
                 </div>
-                <h3 className="font-semibold text-gray-900">500+</h3>
+                <h3 className="font-semibold text-gray-900">2+</h3>
                 <p className="text-gray-600 text-sm">Startups Launched</p>
               </div>
               <div className="text-center">
@@ -72,12 +72,12 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition-transform duration-500">
               <div className="bg-gradient-to-br from-red-500 to-orange-600 rounded-xl p-6 text-white">
-                <h3 className="text-2xl font-bold mb-4">Next Hackathon</h3>
-                <p className="text-red-100 mb-4">48-hour innovation marathon</p>
+                <h3 className="text-2xl font-bold mb-4">Next Bootcamp</h3>
+                <p className="text-red-100 mb-4">Innovative Thinktank</p>
                 <div className="space-y-2">
                   <div className="flex justify-between">
-                    <span>Prize Pool:</span>
-                    <span className="font-bold">₹50,000</span>
+                    <span>Participation:</span>
+                    <span className="font-bold">Open to all</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Registration:</span>
@@ -85,7 +85,7 @@ const Hero = () => {
                   </div>
                   <div className="flex justify-between">
                     <span>Date:</span>
-                    <span className="font-bold">Dec 15-17</span>
+                    <span className="font-bold">To be announced</span>
                   </div>
                 </div>
                 <Button className="w-full mt-6 bg-white text-red-600 hover:bg-gray-100">

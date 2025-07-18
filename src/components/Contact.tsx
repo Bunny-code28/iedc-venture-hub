@@ -8,19 +8,19 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "Innovation Center, Tech Campus\nBangalore, Karnataka 560001",
+      details: "College Of Engineering Muttathara \n 695017",
       color: "text-blue-600"
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: "+91 98765 43210\n+91 98765 43211",
+      details: "",
       color: "text-green-600"
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: "hello@iedc.edu.in\nsupport@iedc.edu.in",
+      details: "support@iedc.edu.in",
       color: "text-purple-600"
     },
     {

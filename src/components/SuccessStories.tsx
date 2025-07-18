@@ -6,46 +6,41 @@ const SuccessStories = () => {
   const stories = [
     {
       name: "Codequest 25",
-      Coordinater: "IEDC & CODIAC",
+      founder: "IEDC & CODIAC",
       industry: "Tech",
-      achievement: "2nd Prize",
       description:
-        "Revelutionary idea to optimize traffic using algorithms and machine learning.This will reduce the traffic at major hotposts",
+        "10 hr Hackathon counducted in association between CODIAC & IEDC.People from various fields partcipated",
       image:
         "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=400&q=80",
       stats: {
-        funding: "₹5Cr",
-        users: "100K+",
-        growth: "300%",
+        funding: "₹10Ck",
+        users: "30+",
+        growth: "100%",
       },
     },
     {
-      name: "GreenTech Innovations",
-      founder: "Rajesh Kumar",
-      industry: "CleanTech",
-      achievement: "National Innovation Award 2023",
+      name: "Women Entrauprenurial session",
+      founder: "IEDC",
+      industry: "IT",
       description:
-        "Sustainable energy solutions that have reduced carbon footprint for 500+ businesses across the country.",
+        "A talk session by a women entrauprenuer speaking about the challenges faced it the field.",
       image:
         "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=400&q=80",
       stats: {
-        funding: "₹3Cr",
-        users: "500+",
-        growth: "250%",
+        users: "20+",
       },
     },
     {
-      name: "HealthCarePlus",
-      founder: "Dr. Ananya Mehta",
-      industry: "HealthTech",
-      achievement: "1M+ Lives Impacted",
+      name: "Inuaguration",
+      founder: "IEDC",
+      industry: "Tech",
       description:
-        "Telemedicine platform connecting rural patients with specialists, bridging healthcare gaps across India.",
+        "Inuaguration of the new executive IEDC committee",
       image:
         "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80",
       stats: {
-        funding: "₹8Cr",
-        users: "1M+",
+        funding: "₹1K",
+        users: "30+",
         growth: "400%",
       },
     },
@@ -54,19 +49,19 @@ const SuccessStories = () => {
   const achievements = [
     {
       icon: TrendingUp,
-      number: "500+",
+      number: "2+",
       label: "Startups Launched",
       color: "text-blue-600",
     },
     {
       icon: DollarSign,
-      number: "₹50Cr+",
+      number: "₹50K+",
       label: "Total Funding Raised",
       color: "text-green-600",
     },
     {
       icon: Users,
-      number: "10M+",
+      number: "10k+",
       label: "Lives Impacted",
       color: "text-purple-600",
     },
@@ -122,7 +117,6 @@ const SuccessStories = () => {
                 <p className="text-gray-600">{story.description}</p>
                 <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-4">
                   <p className="font-semibold text-gray-900 mb-2">
-                    {story.achievement}
                   </p>
                   <div className="grid grid-cols-3 gap-4 text-center">
                     <div>
@@ -135,7 +129,7 @@ const SuccessStories = () => {
                       <p className="text-lg font-bold text-purple-600">
                         {story.stats.users}
                       </p>
-                      <p className="text-xs text-gray-600">Users</p>
+                      <p className="text-xs text-gray-600">Participants</p>
                     </div>
                     <div>
                       <p className="text-lg font-bold text-orange-600">

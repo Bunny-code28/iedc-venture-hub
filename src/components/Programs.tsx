@@ -42,13 +42,13 @@ const Programs = () => {
   const benefits = [
     {
       title: "Expert Mentorship",
-      description: "Learn from successful entrepreneurs and industry veterans",
+      description: "Learn from successful entrepreneurs ",
       stat: "50+ Mentors"
     },
     {
       title: "Funding Support",
       description: "Access to investors and funding opportunities",
-      stat: "₹10Cr+ Facilitated"
+      stat: "₹10k+Funded"
     },
     {
       title: "Industry Network",

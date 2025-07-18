@@ -1,6 +1,7 @@
 import React from 'react';
 import { Target, Award, Globe, Zap } from 'lucide-react';
-
+import pic1 from '../assets/images/IMG_7368.jpg'
+import pic2 from '../assets/images/IMG_7374.jpg'
 const About = () => {
   const features = [
     {
@@ -54,15 +55,15 @@ const About = () => {
             </p>
             <div className="grid grid-cols-2 gap-6 pt-6">
               <div>
-                <h4 className="text-2xl font-bold text-red-600">500+</h4>
+                <h4 className="text-2xl font-bold text-red-600">2</h4>
                 <p className="text-gray-600">Startups Incubated</p>
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-orange-600">₹10Cr+</h4>
+                <h4 className="text-2xl font-bold text-orange-600">₹50k+</h4>
                 <p className="text-gray-600">Funding Facilitated</p>
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-yellow-600">95%</h4>
+                <h4 className="text-2xl font-bold text-yellow-600">85%</h4>
                 <p className="text-gray-600">Success Rate</p>
               </div>
               <div>
@@ -75,12 +76,12 @@ const About = () => {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" 
+                src={pic1}
                 alt="Team collaboration" 
                 className="rounded-xl shadow-lg"
               />
               <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" 
+                src= {pic2}
                 alt="Innovation workspace" 
                 className="rounded-xl shadow-lg mt-8"
               />
